@@ -1,0 +1,171 @@
+/* Header starts */
+
+header{
+    background-color: #3b5998;
+    padding: 0 12% 0;
+}
+
+#logo{
+    font-weight: 600;
+}
+
+.navbar #login{
+    background-color: #3a65c2;
+    color: white;
+    border: 1px solid black;
+}
+
+#login:hover{
+    background-color: #2e2eaf;
+}
+
+/* Header ends */
+
+
+/* Main content starts */
+
+/* Map side starts */
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(white, #D3D8E8);
+    background-image: linear-gradient(white, rgb(211, 216, 232));
+}
+
+#map{
+    padding: 75px 0 0 15%;
+}
+
+.row #map h3{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#map a img{
+    width: 100%;
+    max-height: 300px;
+}
+
+/* Map side ends */
+
+/* Form side starts */
+
+input{
+    max-height: 40px;
+    width: 250px;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.custom-select{
+    box-sizing: content-box;
+    max-height: 25px;
+    border-radius: 0;
+    margin: 5px;
+}
+
+#log-in-form{
+    padding: 40px 15% 0 6%;
+}
+
+#log-in-form .form-row .form-control{
+    max-width: 300px;
+    min-height: 60px;
+}
+
+#log-in-form .form-control{
+    min-height: 60px;
+    margin-bottom: 15px;
+}
+
+#log-in-form .form-control, .custom-select{
+    border-radius: 0.3em;
+}
+
+#log-in-form head, #log-in-form h3{
+    line-height: 70px;
+}
+
+.form-group{
+    margin-bottom: 0;
+}
+
+::placeholder{
+    font-size: 1.3em;
+    color: #b3b3b3 !important;
+    font-weight: 600;
+}
+
+#log-in-form label{
+    font-weight: 600;
+    font-size: 1.6em;
+    line-height: normal;
+    color: #929191;
+}
+
+option{
+    font-size: 1.2em;
+}
+
+.main .row #log-in-form #head{
+    font-weight: bolder;
+}
+
+.main .row #log-in-form h3{
+    font-weight: 500;
+}
+
+::placeholder{
+    font-weight: 400;
+}
+
+[type^="radio"] {
+    display: inline;
+    margin: 0;
+    margin-right: 10px;
+    position: static;
+    width: 20px;
+    min-height: 20px;
+}
+
+[for^="gender"]{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500 !important;
+    font-size: 1.75em !important;
+}
+
+.form-check{
+    margin-top: 10px;
+    position: relative;
+    left: 25px;
+    margin-bottom: 20px;
+}
+
+#terms{
+    color: #5f5f5f;
+}
+
+#log-in-form button{
+    width: 300px;
+    min-height: 50px;
+    margin: 10px 0 10px;
+    font-size: 1.75em;
+    letter-spacing: 1.3px;
+    background-color: #479260;
+}
+
+#log-in-form button:hover{
+    background-color: rgb(17, 131, 17);
+}
+
+/* Form side ends */
+
+#create{
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+/* Main body ends */
+

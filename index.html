@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Facebook</title>
+</head>
+<body>
+
+    <!--Header starts-->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark">
+                <a class="navbar-brand" href="./index.html"><div class="display-3" id="logo">facebook</div></a>
+                <form class="form-inline">
+                <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+                <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+                <button class="btn" type="submit" id="login">Log-In</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <!--Header ends-->
+
+    <!--Main Body starts-->
+    <div class="main">
+        <div class="row">
+            <div class="col-lg-6" id="map">
+                <h3>Facebook helps you connect and share with the people in your life.</h3>
+                <a href="./index.html">
+                    <img src="./FB-map.png" alt="Facebook connects everyone">
+                </a>
+            </div>
+            <div class="col-lg-6" id="log-in-form">
+                <div class="display-4" id="head">Create an account</div>
+                <h3>It's quick and easy</h3>
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-lg-6 col-12">
+                        <input type="text" class="form-control form-control-lg" placeholder="First name">
+                      </div>
+                      <div class="form-group col-lg-6 col-12">
+                        <input type="text" class="form-control form-control-lg" placeholder="Surname">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control form-control-lg" id="mobileOrEmail" placeholder="Mobile number or email address" width="100%">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-lg" id="newpass" placeholder="New password">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-6 col-12">
+                            <label for="bday" class="select col-form-label-lg">Birthday</label>
+                            <div class="form-row">
+                                <select class="custom-select col-lg-3 col-12" id="date">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select class="custom-select col-lg-3 col-12" id="month">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select class="custom-select col-lg-3 col-12" id="year">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-lg">Gender</label>
+                        <div class="form-row">
+                            <div class="form-check col-lg-3 col-12">
+                                <input class="form-check-input" type="radio" name="gender" id="gender" value="Male">
+                                <label class="form-check-label" for="gender">
+                                Male
+                                </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-12">
+                                <input class="form-check-input" type="radio" name="gender" id="gender" value="Female">
+                                <label class="form-check-label" for="gender">
+                                    Female
+                                </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-12">
+                                <input class="form-check-input" type="radio" name="gender" id="gender" value="Custom">
+                                <label class="form-check-label" for="gender">
+                                    Custom
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <p class="col-lg-9 col-12" id="terms">By clicking Sign Up, you agree to our 
+                            <a href="#">Terms, Data Policy and Cookie Policy</a>. 
+                            You may receive SMS notifications from us and can opt out at any time.
+                        </p>
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign Up</button>
+                </form>
+                <p id="create">
+                    <a href="#">Create a Page</a> 
+                    for a celebrity, band or business.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Main Body ends-->
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
