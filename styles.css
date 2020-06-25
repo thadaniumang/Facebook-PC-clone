@@ -12,11 +12,25 @@ header{
 .navbar #login{
     background-color: #3a65c2;
     color: white;
-    border: 1px solid black;
+    border: 1pt solid black;
+    border-radius: 0;
+    width: 50px;
+    font-size: 0.75em;
+    padding: 2px;
 }
 
 #login:hover{
     background-color: #2e2eaf;
+}
+
+.navbar form .form-control{
+    padding: 5px;
+    max-width: 150px;
+    min-height: 20px;
+}
+
+.navbar form .form-control::placeholder{
+    font-size: 0.75em;
 }
 
 /* Header ends */
@@ -33,80 +47,92 @@ body{
 }
 
 #map{
-    padding: 75px 0 0 15%;
+    padding: 40px 0 0 14.5%;
 }
 
 .row #map h3{
-    font-weight: bolder;
-    font-size: 2em;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 #map a img{
     width: 100%;
-    max-height: 300px;
+    max-height: 200px;
 }
 
 /* Map side ends */
 
 /* Form side starts */
 
+#head{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#log-in-form h3{
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 input{
-    max-height: 40px;
-    width: 250px;
+    max-height: 20px;
+    width: 200px;
 }
 
 .form-control{
     border-radius: 0;
 }
 
-.custom-select{
-    box-sizing: content-box;
-    max-height: 25px;
-    border-radius: 0;
-    margin: 5px;
-}
-
 #log-in-form{
-    padding: 40px 15% 0 6%;
+    padding: 27px 15% 0 6%;
 }
 
 #log-in-form .form-row .form-control{
     max-width: 300px;
-    min-height: 60px;
+    min-height: 40px;
 }
 
 #log-in-form .form-control{
-    min-height: 60px;
-    margin-bottom: 15px;
+    min-height: 40px;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-size: 1em;
+    color: #b3b3b3 !important;
+    font-weight: 600;
+}
+
+.form-group #newpass{
+    margin-bottom: 20px;
+}
+
+.custom-select{
+    max-height: 25px;
+    border-radius: 0;
+    margin: 5px;
+    padding: 2px;
 }
 
 #log-in-form .form-control, .custom-select{
     border-radius: 0.3em;
 }
 
-#log-in-form head, #log-in-form h3{
-    line-height: 70px;
-}
-
 .form-group{
     margin-bottom: 0;
 }
 
-::placeholder{
-    font-size: 1.3em;
-    color: #b3b3b3 !important;
-    font-weight: 600;
-}
-
 #log-in-form label{
     font-weight: 600;
-    font-size: 1.6em;
     line-height: normal;
     color: #929191;
 }
 
-option{
-    font-size: 1.2em;
+select + .custom-select, #date{
+    font-size: 0.8em;
+    border-radius: 0;
 }
 
 .main .row #log-in-form #head{
@@ -126,33 +152,36 @@ option{
     margin: 0;
     margin-right: 10px;
     position: static;
-    width: 20px;
-    min-height: 20px;
+    width: 15px;
+    min-height: 13px;
 }
 
 [for^="gender"]{
     color: rgb(0, 0, 0) !important;
     font-weight: 500 !important;
-    font-size: 1.75em !important;
+    font-size: 1em !important;
 }
 
 .form-check{
-    margin-top: 10px;
+    margin-top: 6px;
     position: relative;
-    left: 25px;
-    margin-bottom: 20px;
+    left: 10px;
+    margin-bottom: 12px;
 }
 
 #terms{
     color: #5f5f5f;
+    font-size: 0.67em;
+    font-weight: 500;
+    line-height: 1.25em;
 }
 
 #log-in-form button{
-    width: 300px;
-    min-height: 50px;
-    margin: 10px 0 10px;
-    font-size: 1.75em;
-    letter-spacing: 1.3px;
+    width: 200px;
+    height: 40px;
+    margin: 7px 0 7px;
+    font-size: 1.20em;
+    letter-spacing: 1.2px;
     background-color: #479260;
 }
 
@@ -163,9 +192,8 @@ option{
 /* Form side ends */
 
 #create{
-    margin-top: 40px;
-    font-size: 1.2em;
+    margin-top: 18px;
+    font-size: 0.75em;
 }
 
 /* Main body ends */
-
